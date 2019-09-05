@@ -5,15 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { MaterialModule } from './material/material.module';
-import { TopNavToolbarComponent } from './top-nav-toolbar/top-nav-toolbar.component';
-import { ContentTabComponent } from './content-tab/content-tab.component';
+import { TitleTileComponent } from './title-tile/title-tile.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopNavToolbarComponent,
-    ContentTabComponent
+    TitleTileComponent
   ],
   imports: [
     BrowserModule,
