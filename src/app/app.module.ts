@@ -5,14 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { MaterialModule } from './material/material.module';
-import { TitleTileComponent } from './title-tile/title-tile.component';
-
+import { TitleComponent } from './title/title.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TitleTileComponent
+    TitleComponent
   ],
   imports: [
     BrowserModule,
